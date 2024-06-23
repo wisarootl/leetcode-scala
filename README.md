@@ -1,3 +1,7 @@
+# Leetcode Scala
+
+- leetcode solution in Scala
+
 ## sbt project compiled with Scala 3
 
 ### Usage
