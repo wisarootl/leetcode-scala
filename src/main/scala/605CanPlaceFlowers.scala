@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/can-place-flowers/description/
 
-object Solution {
+object Solution605 {
   def canPlaceFlowers(flowerbed: Array[Int], n: Int): Boolean = {
     var count = 0
     var canPlace = false
@@ -25,9 +25,9 @@ object Solution {
   }
 }
 
-@main def main(): Unit =
+@main def main605(): Unit =
   def test(flowerbed: Array[Int], n: Int, expected: Boolean) = {
-    val output = Solution.canPlaceFlowers(flowerbed, n)
+    val output = Solution605.canPlaceFlowers(flowerbed, n)
     println(output)
     assert(output == expected)
   }
