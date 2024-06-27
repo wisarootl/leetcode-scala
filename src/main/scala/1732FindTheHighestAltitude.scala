@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/find-the-highest-altitude/description/
+
 object Solution1732 {
     def largestAltitude(gain: Array[Int]): Int = {
         var currentAltitude = 0
