@@ -16,7 +16,7 @@ object Solution1732 {
     }
 }
 
-@main def main1732(): Unit =
+@main def main1732(): Unit = {
   def test(gain: Array[Int], expected: Int) = {
     val output = Solution1732.largestAltitude(gain)
     println(output)
@@ -25,3 +25,4 @@ object Solution1732 {
 
   test(gain = Array(-5,1,5,0,-7), expected = 1)
   test(gain = Array(-4,-3,-2,-1,4,3,2), expected = 0)
+}
